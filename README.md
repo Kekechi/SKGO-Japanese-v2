@@ -2,6 +2,26 @@
 
 Through this project we aim to create a service for students willing to start learning Japanese language and culture that helps them enjoy learning Japanese online, outside of the classroom. This repository is a successor of the previous version of this project based on pure html, css, and javascript (hereinafter [SKGO Japanese v1](https://skgojapanese.com/)). It is important to note that this project is a collaborative effort with the [Gardena Valley Japanese Cultural Institute](https://www.jci-gardena.org/) Japanese Language School (hereinafter [JCI Japanese Language School](https://www.jci-gardena.org/japanese-language-school.html)). Our contents are provided by the Japanese language school teachers and volunteers.
 
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
 # Target Audience
 
 - Students from the JCI Japanese Language School (current main users)
