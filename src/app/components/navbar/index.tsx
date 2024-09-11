@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="width-full bg-green-300 sticky top-0">
+    <nav className="width-full bg-green-300 sticky top-0 z-50">
       {/* Mobile Nav Bar */}
       <div className="md:hidden">
         <div
