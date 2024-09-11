@@ -1,11 +1,22 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
     <div>
       <nav className="width-full bg-green-300">
-        <div className="mx-auto max-w-screen-lg px-4 flex">
+        {/* Mobile Nav Bar */}
+        <div className="md:hidden">
+          <div>
+            <div></div>
+            <div>
+              <Image />
+            </div>
+          </div>
+        </div>
+        {/* Desktop Nav Bar */}
+        <div className="mx-auto max-w-screen-lg px-4 flex hidden md:block">
           <h1 className="text-2xl font-bold flex-none p-3">SKGO Japanese</h1>
           <ul className="flex flex-auto">
             <li className="text-center flex-auto py-3">
