@@ -31,7 +31,7 @@ const Home = () => {
                     className="w-full"
                   />
                 </div>
-                <div className="absolute top-0 left-0 w-full h-full bg-gray-100 bg-opacity-25 flex flex-col justify-center">
+                <div className="absolute top-0 left-0 w-full h-full bg-gray-100 bg-opacity-60 flex flex-col justify-center">
                   <h2 className="text-center text-2xl font-bold">Language</h2>
                 </div>
               </Link>
@@ -42,14 +42,14 @@ const Home = () => {
               <Link href="/games/vocab">
                 <div>
                   <Image
-                    src="/images/books.png"
-                    alt="language"
+                    src="/images/card-games.png"
+                    alt="games"
                     width={540}
                     height={540}
                     className="w-full"
                   />
                 </div>
-                <div className="absolute top-0 left-0 w-full h-full bg-gray-100 bg-opacity-25 flex flex-col justify-center">
+                <div className="absolute top-0 left-0 w-full h-full bg-gray-100 bg-opacity-60 flex flex-col justify-center">
                   <h2 className="text-center text-2xl font-bold">Games</h2>
                 </div>
               </Link>
@@ -60,14 +60,14 @@ const Home = () => {
               <Link href="/presentation">
                 <div>
                   <Image
-                    src="/images/books.png"
-                    alt="language"
+                    src="/images/demonslayer.jpg"
+                    alt="anime"
                     width={540}
                     height={540}
                     className="w-full"
                   />
                 </div>
-                <div className="absolute top-0 left-0 w-full h-full bg-gray-100 bg-opacity-25 flex flex-col justify-center">
+                <div className="absolute top-0 left-0 w-full h-full bg-gray-100 bg-opacity-60 flex flex-col justify-center">
                   <h2 className="text-center text-2xl font-bold">
                     Anime & Pop Culture
                   </h2>
@@ -80,14 +80,14 @@ const Home = () => {
               <Link href="/presentation">
                 <div>
                   <Image
-                    src="/images/books.png"
-                    alt="language"
+                    src="/images/temple.png"
+                    alt="culture"
                     width={540}
                     height={540}
                     className="w-full"
                   />
                 </div>
-                <div className="absolute top-0 left-0 w-full h-full bg-gray-100 bg-opacity-25 flex flex-col justify-center">
+                <div className="absolute top-0 left-0 w-full h-full bg-gray-100 bg-opacity-60 flex flex-col justify-center">
                   <h2 className="text-center text-2xl font-bold">
                     Japanese Culture
                   </h2>
