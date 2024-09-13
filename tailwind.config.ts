@@ -13,8 +13,8 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       height: {
-        "screen-nav-mobile": "calc(100vh - 44px)",
-        "screen-nav": "calc(100vh - 56px) ",
+        "screen-nav-mobile": "calc(100dvh - 44px)",
+        "screen-nav": "calc(100dvh - 56px) ",
       },
     },
   },
