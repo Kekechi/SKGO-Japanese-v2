@@ -15,8 +15,8 @@ const Home = () => {
         />
       </div>
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center relative z-10 h-full">
-        <div className="w-1/3 min-w-min mx-auto rounded p-2 bg-gray-100 bg-opacity-60">
-          <h1 className="text-center text-3xl ">SKGO Japanese</h1>
+        <div className="w-1/3 min-w-min mx-auto rounded p-5 bg-gray-100 bg-opacity-60">
+          <h1 className="text-center text-3xl font-bold">SKGO Japanese</h1>
         </div>
         <div className="flex flex-wrap p-2">
           <div className="lg:w-1/4 w-1/2 p-4 aspect-square">
