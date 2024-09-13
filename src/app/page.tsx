@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -12,6 +13,89 @@ const Home = () => {
           height={1038}
           className="h-full w-full object-cover"
         />
+      </div>
+      <div className="max-w-screen-lg mx-auto flex flex-col justify-center relative z-10 h-full">
+        <div className="w-1/3 min-w-min mx-auto rounded p-2 bg-gray-100 bg-opacity-60">
+          <h1 className="text-center text-3xl ">SKGO Japanese</h1>
+        </div>
+        <div className="flex flex-wrap p-2">
+          <div className="lg:w-1/4 w-1/2 p-4 aspect-square">
+            <div className="w-full h-full bg-gray-100 rounded-3xl overflow-hidden relative border-4 border-gray-700">
+              <Link href="/language/aiueo">
+                <div>
+                  <Image
+                    src="/images/books.png"
+                    alt="language"
+                    width={540}
+                    height={540}
+                    className="w-full"
+                  />
+                </div>
+                <div className="absolute top-0 left-0 w-full h-full bg-gray-100 bg-opacity-25 flex flex-col justify-center">
+                  <h2 className="text-center text-2xl font-bold">Language</h2>
+                </div>
+              </Link>
+            </div>
+          </div>
+          <div className="lg:w-1/4 w-1/2 p-4 aspect-square">
+            <div className="w-full h-full bg-gray-100 rounded-3xl overflow-hidden relative border-4 border-gray-700">
+              <Link href="/games/vocab">
+                <div>
+                  <Image
+                    src="/images/books.png"
+                    alt="language"
+                    width={540}
+                    height={540}
+                    className="w-full"
+                  />
+                </div>
+                <div className="absolute top-0 left-0 w-full h-full bg-gray-100 bg-opacity-25 flex flex-col justify-center">
+                  <h2 className="text-center text-2xl font-bold">Games</h2>
+                </div>
+              </Link>
+            </div>
+          </div>
+          <div className="lg:w-1/4 w-1/2 p-4 aspect-square">
+            <div className="w-full h-full bg-gray-100 rounded-3xl overflow-hidden relative border-4 border-gray-700">
+              <Link href="/presentation">
+                <div>
+                  <Image
+                    src="/images/books.png"
+                    alt="language"
+                    width={540}
+                    height={540}
+                    className="w-full"
+                  />
+                </div>
+                <div className="absolute top-0 left-0 w-full h-full bg-gray-100 bg-opacity-25 flex flex-col justify-center">
+                  <h2 className="text-center text-2xl font-bold">
+                    Anime & Pop Culture
+                  </h2>
+                </div>
+              </Link>
+            </div>
+          </div>
+          <div className="lg:w-1/4 w-1/2 p-4 aspect-square">
+            <div className="w-full h-full bg-gray-100 rounded-3xl overflow-hidden relative border-4 border-gray-700">
+              <Link href="/presentation">
+                <div>
+                  <Image
+                    src="/images/books.png"
+                    alt="language"
+                    width={540}
+                    height={540}
+                    className="w-full"
+                  />
+                </div>
+                <div className="absolute top-0 left-0 w-full h-full bg-gray-100 bg-opacity-25 flex flex-col justify-center">
+                  <h2 className="text-center text-2xl font-bold">
+                    Japanese Culture
+                  </h2>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
