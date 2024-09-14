@@ -22,13 +22,13 @@ const Home = () => {
           <div className="lg:w-1/4 w-1/2 p-4 aspect-square">
             <div className="w-full h-full bg-gray-100 rounded-3xl overflow-hidden relative border-4 border-gray-700">
               <Link href="/language/aiueo">
-                <div>
+                <div className="h-full w-full">
                   <Image
                     src="/images/books.png"
                     alt="language"
                     width={540}
                     height={540}
-                    className="w-full"
+                    className="w-full h-full object-contain m-auto"
                   />
                 </div>
                 <div className="absolute top-0 left-0 w-full h-full bg-gray-100 bg-opacity-60 flex flex-col justify-center">
@@ -40,13 +40,13 @@ const Home = () => {
           <div className="lg:w-1/4 w-1/2 p-4 aspect-square">
             <div className="w-full h-full bg-gray-100 rounded-3xl overflow-hidden relative border-4 border-gray-700">
               <Link href="/games/vocab">
-                <div>
+                <div className="h-full w-full">
                   <Image
                     src="/images/card-games.png"
                     alt="games"
                     width={540}
                     height={540}
-                    className="w-full"
+                    className="w-full h-full object-contain m-auto"
                   />
                 </div>
                 <div className="absolute top-0 left-0 w-full h-full bg-gray-100 bg-opacity-60 flex flex-col justify-center">
@@ -58,13 +58,13 @@ const Home = () => {
           <div className="lg:w-1/4 w-1/2 p-4 aspect-square">
             <div className="w-full h-full bg-gray-100 rounded-3xl overflow-hidden relative border-4 border-gray-700">
               <Link href="/presentation">
-                <div>
+                <div className="h-full w-full">
                   <Image
                     src="/images/demonslayer.jpg"
                     alt="anime"
                     width={540}
                     height={540}
-                    className="w-full"
+                    className="w-full h-full object-cover m-auto"
                   />
                 </div>
                 <div className="absolute top-0 left-0 w-full h-full bg-gray-100 bg-opacity-60 flex flex-col justify-center">
@@ -78,13 +78,13 @@ const Home = () => {
           <div className="lg:w-1/4 w-1/2 p-4 aspect-square">
             <div className="w-full h-full bg-gray-100 rounded-3xl overflow-hidden relative border-4 border-gray-700">
               <Link href="/presentation">
-                <div>
+                <div className="h-full w-full">
                   <Image
                     src="/images/temple.png"
                     alt="culture"
                     width={540}
                     height={540}
-                    className="w-full"
+                    className="w-full h-full object-contain m-auto"
                   />
                 </div>
                 <div className="absolute top-0 left-0 w-full h-full bg-gray-100 bg-opacity-60 flex flex-col justify-center">
