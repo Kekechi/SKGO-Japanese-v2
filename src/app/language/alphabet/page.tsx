@@ -1,5 +1,9 @@
 import React from "react";
 import Pagination from "@/app/components/pagination";
+import pagelist from "../pagelist";
+
+const path = "/language/alphabet";
+const pageIndex = pagelist.findIndex((page) => page.url === path);
 
 const Alphabet = () => {
   return (
@@ -10,8 +14,12 @@ const Alphabet = () => {
         </h1>
       </div>
       <Pagination
-        // prev={{ title: "prev", url: "/" }}
-        next={{ title: "next", url: "/" }}
+        prev={pageIndex === 0 ? undefined : pagelist[pageIndex - 1]}
+        next={
+          pageIndex === pagelist.length - 1
+            ? undefined
+            : pagelist[pageIndex + 1]
+        }
         pageSelect={{ title: "Select", url: "/language/select" }}
       />
       Alphabet
