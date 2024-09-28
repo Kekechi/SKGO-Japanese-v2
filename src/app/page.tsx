@@ -21,7 +21,7 @@ const Home = () => {
         <div className="flex flex-wrap p-2">
           <div className="lg:w-1/4 w-1/2 p-4 aspect-square">
             <div className="w-full h-full bg-gray-100 rounded-3xl overflow-hidden relative border-4 border-gray-700">
-              <Link href="/language/aiueo">
+              <Link href="/language/alphabet">
                 <div className="h-full w-full">
                   <Image
                     src="/images/books.png"
