@@ -1,10 +1,6 @@
 import React from "react";
 import Link from "next/link";
-
-declare type Page = {
-  url: string;
-  title: string;
-};
+import { Page } from "@/app/types";
 
 const Pagination = ({
   prev,
@@ -21,7 +17,7 @@ const Pagination = ({
         {prev && (
           <Link
             href={prev.url}
-            className="p-2 rounded border flex justify-between bg-green-200 font-semibold w-min"
+            className="p-2 rounded border flex justify-between bg-green-200 font-semibold max-w-[75%]"
           >
             <div className="pr-1">{"<"}</div>
             <div>{prev.title}</div>
@@ -34,7 +30,7 @@ const Pagination = ({
         {pageSelect && (
           <Link
             href={pageSelect.url}
-            className="p-2 rounded border flex justify-between bg-green-200 font-semibold w-min"
+            className="p-2 rounded border flex justify-between bg-green-200 font-semibold max-w-[75%]"
           >
             <div>{pageSelect.title}</div>
           </Link>
@@ -46,7 +42,7 @@ const Pagination = ({
         {next && (
           <Link
             href={next.url}
-            className="p-2 rounded border flex justify-between bg-green-200 font-semibold w-min"
+            className="p-2 rounded border flex justify-between bg-green-200 font-semibold max-w-[75%]"
           >
             <div>{next.title}</div>
             <div className="pl-1">{">"}</div>
